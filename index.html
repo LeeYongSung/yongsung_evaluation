@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainPage</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id="main"></div>
+    <div class="top_btn">
+        <a href="#main"><img src="img/top.png" alt="top_btn"></a>
+    </div>
+    <header>
+        <!-- 로그인 회원가입 -->
+        <div class="util">
+            <ul class="util_menu">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+
+        <!-- menu -->
+        <div class="menu">
+            <div class="menu_left">
+                    <a href=""><i class="fa fa-user"></i></a>
+            </div>
+            <div class="menu_center">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="board.html">Board</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-right">
+                <a href="#" class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#" class="menu_close">
+                    <i class="fa fa-close"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="mobile_header">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Board</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <section>
+        <div class="section1">
+            <div class="slide_box">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/slide01.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide02.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide03.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide04.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide05.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide06.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide07.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide08.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide09.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/slide10.jpg" alt=""></div>
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="card_box">
+                <div class="card1">
+                    <ul>
+                        <li><img src="img/card_img/1.jpg" alt="카드이미지1"></li>
+                        <li><h2>최신 이미지 01</h2></li>
+                        <li>
+                            <p>최신 이미지01 입니다.</p>
+                            <p>새로운 게시물을 감상해 보세요.</p>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>2023-06-06</li>
+                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card2">
+                    <ul>
+                        <li><img src="img/card_img/2.jpg" alt="카드이미지2"></li>
+                        <li><h2>최신 이미지 02</h2></li>
+                        <li>
+                            <p>최신 이미지01 입니다.</p>
+                            <p>새로운 게시물을 감상해 보세요.</p>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>2023-06-06</li>
+                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card3">
+                    <ul>
+                        <li><img src="img/card_img/3.jpg" alt="카드이미지3"></li>
+                        <li><h2>최신 이미지 03</h2></li>
+                        <li>
+                            <p>최신 이미지01 입니다.</p>
+                            <p>새로운 게시물을 감상해 보세요.</p>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>2023-06-06</li>
+                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="content1_box">
+                <ul>
+                    <li>
+                        <img src="img/content_img/content1.jpg" alt="콘텐츠이미지1">
+                    </li>
+                    <li>
+                        <div class="content1_title">
+                            <h2>Title - Hello Text001</h2>
+                        </div>
+                        <div class="content1_text">
+                            <p>empty content. empty content. </p>
+                            <p>empty content. </p>
+                        </div>
+                        <div class="content1_button">
+                            <button type="button" id="content1_btn">Button 001</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="content2_box">
+                <ul>
+                    <li>
+                        <div class="content2_title">
+                            <h2>Title - Hello Text002</h2>
+                        </div>
+                        <div class="content2_text">
+                            <p>empty content. empty content. </p>
+                            <p>empty content. </p>
+                        </div>
+                        <div class="content2_button">
+                            <button type="button" id="content2_btn">Button 002</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content2_img_box">
+                            <img src="img/content_img/content2.jpg" alt="콘텐츠이미지2">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foo_wrap">
+            <div class="foo_top">
+                <div class="foo_left">
+                    <ul>
+                        <li>
+                            <a href="#">Board</a>
+                            <ul>
+                                <li>
+                                    <a href="#">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="#">자유 게시판</a>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                            <ul>
+                                <li>
+                                    <a href="#">갤러리01</a>
+                                </li>
+                                <li>
+                                    <a href="#">갤러리02</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                            <ul>
+                                <li>
+                                    <a href="#">사이트 소개</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foo_right">
+                    <select name="family_site" id="familly_site">
+                        <option value="naver">네이버</option>
+                        <option value="kakao">카카오</option>
+                        <option value="google">구글</option>
+                    </select>
+                </div>
+            </div>
+            <div class="copy"><p>Copyright All right reserved.</p></div>
+        </div>
+    </footer>
+</body>
+</html>
