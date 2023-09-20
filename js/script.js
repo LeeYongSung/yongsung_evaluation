@@ -29,6 +29,15 @@ $(function() {
             snapOnRelease: true,        // 스크롤바 놓을 때, 슬라이드 위치 맞춤
         },
       });
+      let count = true;
+
+      if(count == true) {
+        $('#heart').click(function() {
+          
+        })  
+      } else {
+
+      }
 
       $("#content1_btn, #content2_btn").click(function() {
         alert("Click");
@@ -48,11 +57,20 @@ $(function() {
 
       $(window).scroll(function () { 
         var scrollValue = $(document).scrollTop(); 
-        // console.log(scrollValue); 
+        console.log(scrollValue); 
         if(scrollValue > 1000) {
             $(".top_btn").fadeIn();
         } else {
             $(".top_btn").fadeOut();
+        }
+
+        // 스크롤시 메뉴 색상 활성화
+        if(scrollValue > 100) {
+          $('header').css('position', 'fixed');
+          $('.mobile_header').css('position', 'fixed');
+        } else {
+          $('header').css('position', 'inherit');
+          $('mobile_header').css('position', 'absolute');
         }
     });
 });

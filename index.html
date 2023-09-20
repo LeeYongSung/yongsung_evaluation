@@ -46,10 +46,10 @@
                 </nav>
             </div>
             <div class="menu-right">
-                <a href="#" class="menu_icon">
+                <a class="menu_icon">
                     <i class="fa fa-bars"></i>
                 </a>
-                <a href="#" class="menu_close">
+                <a class="menu_close">
                     <i class="fa fa-close"></i>
                 </a>
             </div>
@@ -81,7 +81,6 @@
                     <div class="swiper-slide"><img src="img/slide08.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="img/slide09.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="img/slide10.jpg" alt=""></div>
-                    ...
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
@@ -97,15 +96,31 @@
         </div>
         <div class="section2">
             <div class="card_box">
-                <div class="card1">
+                <div class="card">
                     <ul>
-                        <li><img src="img/card_img/1.jpg" alt="카드이미지1"></li>
-                        <li><h2>최신 이미지 01</h2></li>
-                        <li>
+                        <li id="card_img"><img src="img/card_img/1.jpg" alt="카드이미지1"></li>
+                        <li id="card_title"><h2>최신 이미지 01</h2></li>
+                        <li id="card_content">
                             <p>최신 이미지01 입니다.</p>
                             <p>새로운 게시물을 감상해 보세요.</p>
                         </li>
-                        <li>
+                        <li id="card_foo">
+                            <ul>
+                                <li>2023-06-06</li>
+                                <li id="heart"><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <ul>
+                        <li id="card_img"><img src="img/card_img/2.jpg" alt="카드이미지2"></li>
+                        <li id="card_title"><h2>최신 이미지 02</h2></li>
+                        <li id="card_content">
+                            <p>최신 이미지01 입니다.</p>
+                            <p>새로운 게시물을 감상해 보세요.</p>
+                        </li>
+                        <li id="card_foo">
                             <ul>
                                 <li>2023-06-06</li>
                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
@@ -113,31 +128,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="card2">
+                <div class="card">
                     <ul>
-                        <li><img src="img/card_img/2.jpg" alt="카드이미지2"></li>
-                        <li><h2>최신 이미지 02</h2></li>
-                        <li>
+                        <li id="card_img"><img src="img/card_img/3.jpg" alt="카드이미지3"></li>
+                        <li id="card_title"><h2>최신 이미지 03</h2></li>
+                        <li id="card_content">
                             <p>최신 이미지01 입니다.</p>
                             <p>새로운 게시물을 감상해 보세요.</p>
                         </li>
-                        <li>
-                            <ul>
-                                <li>2023-06-06</li>
-                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card3">
-                    <ul>
-                        <li><img src="img/card_img/3.jpg" alt="카드이미지3"></li>
-                        <li><h2>최신 이미지 03</h2></li>
-                        <li>
-                            <p>최신 이미지01 입니다.</p>
-                            <p>새로운 게시물을 감상해 보세요.</p>
-                        </li>
-                        <li>
+                        <li id="card_foo">
                             <ul>
                                 <li>2023-06-06</li>
                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
